@@ -1,3 +1,4 @@
+from routes.main import routes
 from http.server import BaseHTTPRequestHandler
 
 class Server(BaseHTTPRequestHandler):
